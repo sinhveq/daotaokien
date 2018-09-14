@@ -1,0 +1,16 @@
+<table>
+  <thead>
+    <td>STT</td>
+    <td>Name</td>
+    <td>Address</td>
+    <td>Edit</td>
+  </thead>
+  <tbody>
+    <tr *ngFor="let gv of giaoviens">
+      <td>{{gv.id}}</td>
+      <td>{{gv.name}}</td>
+      <td>{{gv.address}}</td>
+      <td><button>Sửa</button></td>
+    </tr>
+  </tbody>
+</table>
